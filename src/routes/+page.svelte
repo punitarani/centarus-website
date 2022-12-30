@@ -7,7 +7,6 @@
 	main {
 		height: 100vh;
 		width: 100vw;
-		max-width: 100%;
 
 		display: flex;
 		flex-direction: column;
@@ -17,17 +16,34 @@
 
 	.title {
 		font-family: 'Hubot Sans', sans-serif;
+		text-align: center;
+
 		font-size: 100px;
 		font-weight: 800;
-		text-align: center;
+		max-width: 80%;
+
 		margin: 0;
 	}
 
 	.tagline {
 		font-family: 'Mona Sans', sans-serif;
+		text-align: center;
+		white-space: nowrap;
+
 		font-size: 42px;
 		font-weight: 600;
-		text-align: center;
+		max-width: 80%;
+
 		margin: 0;
+	}
+
+	@media screen and (max-width: 600px) {
+		.title {
+			font-size: 60px;
+		}
+
+		.tagline {
+			font-size: 24px;
+		}
 	}
 </style>
