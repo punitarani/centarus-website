@@ -1,6 +1,7 @@
 <script lang="ts">
 	let email = '';
 	let errorMessage = '';
+	let submitSuccess = false;
 
 	// validateEmail validates the email address
 	function validateEmail(email) {
@@ -21,13 +22,24 @@
 
 		console.log(email);
 		console.log(errorMessage);
+
+		// If there are no errors, submit the email
+		if (errorMessage.length == 0) {
+			submitSuccess = true;
+		}
 	}
 </script>
 
-<form class="form-sign-up">
-	<input type="email" placeholder="Email Address" class="input-email" bind:value={email} />
-	<button class="button-email-submit" on:click={submitEmail}>Submit</button>
-</form>
+{#if !submitSuccess}
+	<form class="form-sign-up">
+		<input type="email" placeholder="Email Address" class="input-email" bind:value={email} />
+		<button class="button-email-submit" on:click={submitEmail}>Submit</button>
+	</form>
+{:else}
+	<div class="form-success-text">
+		<p>Thank you for your interest!</p>
+	</div>
+{/if}
 
 <style>
 	form {
@@ -63,5 +75,10 @@
 
 		color: #e6e6e6;
 		background-color: green;
+	}
+
+	.form-success-text {
+		height: 30px;
+		color: #e6e6e6;
 	}
 </style>
