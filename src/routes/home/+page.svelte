@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import EmailForm from './EmailForm.svelte';
 
 	// main div
 	let main;
@@ -19,6 +20,7 @@
 
 <div class="main" bind:this={main}>
 	<p>Coming Soon...</p>
+	<EmailForm />
 </div>
 
 <style>
@@ -26,11 +28,12 @@
 		height: calc(100vh - 100px - 50px - 20px);
 
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.main p {
-		font-size: 2rem;
+		font-size: 2.4rem;
 	}
 </style>
