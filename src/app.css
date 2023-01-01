@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
 	font-family: 'Hubot Sans';
 	src: url('/fonts/Hubot Sans/Hubot-Sans.woff2') format('woff2 supports variations'),
