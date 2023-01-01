@@ -39,7 +39,7 @@
 			bind:value={email}
 		/>
 		<button
-			class="w-16 bg-green-700 text-slate-100 flex flex-row justify-center inline-flex items-center"
+			class="flex inline-flex w-16 flex-row items-center justify-center bg-green-700 text-slate-100"
 			on:click={submitEmail}
 			>Submit
 		</button>

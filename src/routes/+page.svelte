@@ -1,6 +1,6 @@
-<main class="h-screen flex flex-col items-center justify-center">
+<main class="flex h-screen flex-col items-center justify-center">
 	<h1 class="title text-8xl font-extrabold">Centarus</h1>
-	<h2 class="text-4xl font-bold whitespace-nowrap">Investing in Humanity</h2>
+	<h2 class="whitespace-nowrap text-4xl font-bold">Investing in Humanity</h2>
 </main>
 
 <style>
