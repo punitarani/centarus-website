@@ -18,22 +18,15 @@
 	});
 </script>
 
-<div class="main" bind:this={main}>
-	<p>Coming Soon...</p>
-	<EmailForm />
+<div class="main grid place-items-center" bind:this={main}>
+	<div class="flex flex-col items-center space-y-2">
+		<p class="text-[2.4rem] text-center">Coming Soon...</p>
+		<EmailForm />
+	</div>
 </div>
 
 <style>
 	.main {
 		height: calc(100vh - 100px - 50px - 20px);
-
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.main p {
-		font-size: 2.4rem;
 	}
 </style>
