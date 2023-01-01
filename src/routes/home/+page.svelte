@@ -20,7 +20,7 @@
 
 <div class="main grid place-items-center" bind:this={main}>
 	<div class="flex flex-col items-center space-y-2">
-		<p class="text-[2.4rem] text-center">Coming Soon...</p>
+		<p class="text-center text-[2.4rem] font-semibold">Coming Soon...</p>
 		<EmailForm />
 	</div>
 </div>
