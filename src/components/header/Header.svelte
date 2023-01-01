@@ -1,8 +1,4 @@
-<script>
-	export let header;
-</script>
-
-<header class="mt-4 flex h-20 items-center justify-center" bind:this={header}>
+<header class="mt-4 flex h-20 items-center justify-center">
 	<div class="header-container flex h-16 w-10/12 max-w-screen-xl flex-row justify-between">
 		<a href="/">
 			<img src="images/logo/centarus-logo-white.png" alt="logo" class="h-16" />
