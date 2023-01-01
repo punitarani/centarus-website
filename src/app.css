@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
 	font-family: 'Hubot Sans';
 	src: url('/fonts/Hubot Sans/Hubot-Sans.woff2') format('woff2 supports variations'),
@@ -15,15 +19,9 @@
 }
 
 :root {
-	font-family: 'Hubot Sans', 'Mona Sans', sans-serif;
+	font-family: 'Mona Sans', sans-serif;
 	font-size: 1rem;
 
 	background-color: #121212;
-}
-
-body {
 	color: #e6e6e6;
-
-	margin: 0;
-	padding: 0;
 }

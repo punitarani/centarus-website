@@ -31,22 +31,26 @@
 </script>
 
 {#if !submitSuccess}
-	<form class="form-sign-up">
-		<input type="email" placeholder="Email Address" class="input-email" bind:value={email} />
-		<button class="button-email-submit" on:click={submitEmail}>Submit</button>
+	<form class="flex flex-row">
+		<input
+			type="email"
+			placeholder="Email Address"
+			class="w-48 bg-slate-100 text-black"
+			bind:value={email}
+		/>
+		<button
+			class="flex inline-flex w-16 flex-row items-center justify-center bg-green-700 text-slate-100"
+			on:click={submitEmail}
+			>Submit
+		</button>
 	</form>
 {:else}
-	<div class="form-success-text">
+	<div class="h-8 text-slate-100">
 		<p>Thank you for your interest!</p>
 	</div>
 {/if}
 
 <style>
-	form {
-		display: flex;
-		flex-direction: row;
-	}
-
 	form input,
 	form button {
 		font-family: 'Mona Sans', sans-serif;
@@ -57,28 +61,5 @@
 		margin: 0 0.25rem;
 		padding: 0 1rem;
 		border-radius: 12px;
-
-		display: inline-flex;
-		align-items: center;
-	}
-
-	form input {
-		width: 150px;
-		justify-content: flex-start;
-
-		background-color: #e6e6e6;
-	}
-
-	form button {
-		width: 70px;
-		justify-content: center;
-
-		color: #e6e6e6;
-		background-color: green;
-	}
-
-	.form-success-text {
-		height: 30px;
-		color: #e6e6e6;
 	}
 </style>
