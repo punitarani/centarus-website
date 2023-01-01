@@ -1,28 +1,5 @@
-<footer>
-	<div class="footer-container">
+<footer class="flex h-12 flex-col items-center justify-center">
+	<div class="footer-container flex h-10 w-10/12 max-w-screen-xl justify-end">
 		<p>Centarus</p>
 	</div>
 </footer>
-
-<style>
-	footer {
-		height: 50px;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.footer-container {
-		height: 60px;
-		width: 90%;
-		max-width: 1080px;
-
-		box-sizing: border-box;
-		padding: 0 24px;
-
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-	}
-</style>
