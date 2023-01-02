@@ -2,7 +2,7 @@
 	import EmailForm from './EmailForm.svelte';
 
 	let innerHeight = 0;
-	$: height = innerHeight - 150;
+	$: height = innerHeight - 155;
 </script>
 
 <svelte:window bind:innerHeight />
@@ -16,6 +16,6 @@
 
 <style>
 	.main {
-		height: calc(100vh - 150px);
+		height: calc(100vh - 155px);
 	}
 </style>
