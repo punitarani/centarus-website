@@ -1,5 +1,8 @@
-<footer class="flex h-12 flex-col items-center justify-center">
-	<div class="footer-container flex h-10 w-10/12 max-w-screen-xl justify-start">
+<footer class="flex h-12 items-center justify-center">
+	<div class="flex h-10 w-10/12 max-w-screen-xl flex-row items-center justify-between">
 		<p>Centarus</p>
+		<a href="https://github.com/punitarani/centarus-website">
+			<img src="images/other/GitHub/github-mark-white.png" alt="GitHub logo" class="h-6" />
+		</a>
 	</div>
 </footer>
