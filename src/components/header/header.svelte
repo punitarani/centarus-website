@@ -1,5 +1,6 @@
 <script>
 	import Logo from '/src/components/logo.svelte';
+	import Nav from './nav.svelte';
 </script>
 
 <header class="mt-2 flex h-20 items-center justify-center">
@@ -7,5 +8,6 @@
 		<a href="/">
 			<Logo size="text-4xl" />
 		</a>
+		<Nav />
 	</div>
 </header>
