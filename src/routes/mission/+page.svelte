@@ -12,6 +12,20 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="flex w-full flex-col justify-center">
+		<div class="relative flex h-screen justify-center">
+			<img
+				src="images/stock/Schweickart-on-The-Porch.jpg"
+				alt="Schweickart on 'The Porch'"
+				class="h-full w-full object-cover object-top"
+			/>
+			<div class="absolute top-16 lg:inset-x-40 2xl:inset-x-1/4 2xl:top-1/4">
+				<h1 class="text-5xl lg:text-9xl">Incentivizing</h1>
+				<h1 class="text-5xl lg:text-9xl">Innovators</h1>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
