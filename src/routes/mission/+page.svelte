@@ -6,9 +6,9 @@
 				alt="Crescent Earth rises above lunar horizon"
 				class="h-full w-full object-cover"
 			/>
-			<div class="absolute top-12 left-8 lg:left-40 2xl:left-1/4 2xl:top-1/4">
-				<h1 class="text-7xl xl:text-9xl">Open Sourcing</h1>
-				<h1 class="text-7xl xl:text-9xl">the Universe</h1>
+			<div class="absolute top-12 left-8 lg:left-40 lg:top-1/4 2xl:left-1/4 2xl:top-1/4">
+				<h1 class="text-7xl lg:text-9xl">Open Sourcing</h1>
+				<h1 class="text-7xl lg:text-9xl">the Universe</h1>
 			</div>
 		</div>
 	</div>
