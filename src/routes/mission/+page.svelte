@@ -52,6 +52,6 @@
 		font-weight: 500;
 		color: white;
 
-		text-shadow: 0 0 10px rgba(7, 7, 7, 0.25);
+		text-shadow: 0 0 10px rgba(7, 7, 7, 0.5);
 	}
 </style>
