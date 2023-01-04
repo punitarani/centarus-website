@@ -30,11 +30,11 @@
 	<div class="flex w-full flex-col justify-center">
 		<div class="relative flex h-screen justify-center">
 			<img
-				src="images/stock/Gemini-VIII-Command-Pilot-Neil-Armstrong.jpg"
-				alt="Gemini VIII Command Pilot Neil Armstrong"
+				src="images/stock/STS-09-Horizon.jpg"
+				alt="STS-09 Horizon"
 				class="h-full w-full object-cover object-center"
 			/>
-			<div class="absolute top-12 lg:left-1/4 lg:top-1/4">
+			<div class="absolute top-1/3 lg:left-1/4 lg:top-1/4">
 				<h1 class="text-7xl lg:text-9xl">Fund</h1>
 				<h1 class="text-7xl lg:text-9xl">Pioneers</h1>
 			</div>
